@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">
+        \n项目名：基于滑动菜单的工具集合
+        \n
+        \n
+        \n版本信息：2.8
+    </string>
+
+    <string name="app_name2">
+        \n后端：徐杨阳  叶云帆  阮世晟
+        \n文档：黄斌
+        \n测试：刘江梅  彭常玉
+        \n前端：徐杨阳
+        \n答辩：徐杨阳
+    </string>
+</resources>

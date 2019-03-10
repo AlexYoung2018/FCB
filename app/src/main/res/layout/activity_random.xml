@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.work.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="点击生成0-1000的随机数"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="点击生成0-100的随机数"
+        android:layout_above="@+id/b2"
+        android:layout_alignLeft="@+id/b2"
+        />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="点击生成0-10000的随机数"
+        android:layout_below="@+id/b2"
+        android:layout_alignLeft="@+id/b2"/>
+
+</RelativeLayout>
